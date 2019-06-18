@@ -4,6 +4,10 @@ import { Route } from "react-router-dom";
 
 import ArmsOne from "./Weekly/WeekOne.js";
 
+const Div = styled.div`
+  text-align: center;
+`;
+
 const TitleStyle = styled.h1`
   font-size: 1.5em;
   text-align: center;
@@ -28,7 +32,7 @@ const ButtonStyle = styled.button`
 class Arms extends React.Component {
   render() {
     return (
-      <div>
+      <Div>
         <TitleStyle>Sun's Out Gun's Out!</TitleStyle>
         <ButtonStyle as="a" href="/arms1">
           Week 1
@@ -42,7 +46,7 @@ class Arms extends React.Component {
         <ButtonStyle as="a" href="/arms4/">
           Week 4
         </ButtonStyle>
-      </div>
+      </Div>
     );
   }
 }
