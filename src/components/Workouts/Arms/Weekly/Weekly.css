@@ -1,0 +1,45 @@
+.Even {
+  background: palevioletred;
+  color: white;
+  padding: 5px;
+}
+
+.Even ul {
+  list-style: none;
+}
+
+.Even li {
+  padding: 3px;
+}
+
+.Even input {
+  padding: 0.5em;
+  margin: 0.5em;
+  background: papayawhip;
+  color: palevioletred;
+  border: none;
+  border-radius: 3px;
+}
+
+.Odd {
+  background: white;
+  color: palevioletred;
+  padding: 5px;
+}
+
+.Odd ul {
+  list-style: none;
+}
+
+.Odd li {
+  padding: 3px;
+}
+
+.Odd input {
+  padding: 0.5em;
+  margin: 0.5em;
+  background: papayawhip;
+  color: palevioletred;
+  border: none;
+  border-radius: 3px;
+}
